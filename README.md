@@ -43,7 +43,7 @@
    
    <img src="images/quiz_screen1.png" alt="screenshot" height="200"><img src="images/quiz_screen2.png" alt="screenshot" height="200"><img src="images/quiz_screen3.png" alt="screenshot" height="200">
 
-See demo here: https://wy-chan.github.io/devchallenges_RandomQuoteGenerator/
+See demo here: https://wy-chan.github.io/devchallenges_CountryQuiz/
 
 Challenge: Create a country quiz app using an API. 
 
