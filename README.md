@@ -52,7 +52,7 @@ Challenge: Create a country quiz app using an API.
 - HTML
 - CSS
 - JavaScript
-- jQuery
+- [React](reactjs.org)
 
 ## Features
 
@@ -79,6 +79,8 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [Google Fonts](https://fonts.google.com/)
 - [Material Icons](https://google.github.io/material-design-icons/)
 
+#### API:
+- [REST Countries](https://restcountries.com/)
 
 ## Contact
 

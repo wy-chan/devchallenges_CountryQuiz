@@ -4,31 +4,111 @@
   <head>
   <meta charset="utf-8">
     <!-- Page Title-->
-    <title>Random Quote Generator
-    </title>
+    <title>Random Quote Generator</title>
     
     <!-- Title Icon-->
     <link rel="icon" href="images/devchallenges.png" type="image/icon type">
     
     <!-- Load Google Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" >
     
     <!-- Load my own CSS-->
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <script src="script.js" type="text/javascript"></script>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    
+    <!-- Load Babel (need this if use HTML in React component)-->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Load my React components. 
+    * type="text/babel" to use JSX(Babel)
+    -->
+    <script src="script.js" type="text/babel"></script>
     
   </head>
 <body>
   
-
-  <header>
-
-  </header>
-  <main>
-
-
-  </main>
+<main>
+<div id="myApp">
+  <!---
+<h1>Country Quiz</h1>
+<img id="question-icon" src="images/undraw_adventure_4hum 1.svg" class=""/>
+<div id="quiz-box">
+  <div id="question-page" class="">
+  <h2 id="question">Kuala Lumpur is the capital of</h2>
+  <ul id="options-box">
+      <li>
+        <button class="options">
+        <span class="answers-box">
+          <span class="letter-option">A</span>
+          <span class="answers">Malaysia</span>
+        </span>
+        <span class="material-icons-round circle-icon hidden">
+           check_circle_outline
+        </span>
+        <span class="material-icons-round circle-icon hidden">
+          highlight_off
+        </span>
+        </button>
+      </li>
+      <li>
+        <button class="options">
+        <span class="answers-box">
+          <span class="letter-option">B</span>
+          <span class="answers"></span>Vietnam</span>
+        </span>
+        <span class="material-icons-round circle-icon hidden">
+          check_circle_outline
+        </span>
+        <span class="material-icons-round circle-icon hidden">
+          highlight_off
+        </span>
+        </button>
+      </li>
+      <li>
+        <button class="options">
+        <span class="answers-box">
+          <span class="letter-option">C</span>
+          <span class="answers"></span>Sweden</span>
+        </span>
+        <span class="material-icons-round circle-icon hidden">
+          check_circle_outline
+        </span>
+        <span class="material-icons-round circle-icon hidden">
+          highlight_off
+        </span>
+        </button>
+      </li>
+      <li>
+        <button class="options">
+        <span class="answers-box">
+          <span class="letter-option">D</span>
+          <span class="answers"></span>Austria</span>
+        </span>
+        <span class="material-icons-round circle-icon hidden">
+          check_circle_outline
+        </span>
+        <span class="material-icons-round circle-icon hidden">
+          highlight_off
+        </span>
+        </button>
+      </li>
+  </ul>
+  <button id="next-btn" class="next-btn hidden">Next</button>
+  </div>
+  <div id="result-page" class="result-page hidden">
+    <img id="result-icon" src="images/undraw_winners_ao2o 2.svg" class=""/>
+    <h3 id="result-heading">Results</h3>
+    <p>You got <em>4</em> correct answers</p>
+    <button id="try-btn">Try again</button>
+  </div>
+</div>
+-->
+</div>
+</main>
   
 <footer>
 <span class="notes">created by <em>wy-chan</em> - devChallenges.io</span>
