@@ -2,7 +2,7 @@ class MyApp extends React.Component{
     constructor(props){
       super(props);
       this.state={
-        currentPage: "Question Page",
+        currentPage: "QuestionPage",
         currentQuestion: "",
         currentA: "",
         currentB: "",
@@ -75,13 +75,13 @@ class MyApp extends React.Component{
 
     getAnswer(){
       this.setState({
-        currentPage: "Answer Page",
+        currentPage: "AnswerPage",
       });
     }
     
     loadPage(page){
       switch(page){
-        case "Question Page": 
+        case "QuestionPage": 
         return <QuestionPage
               currentQuestion={this.state.currentQuestion}
               currentA={this.state.currentA}
@@ -91,7 +91,7 @@ class MyApp extends React.Component{
               getAnswer={this.getAnswer}
         />;
         break;
-        case "Answer Page" : 
+        case "AnswerPage" : 
         return <AnswerPage
               currentQuestion={this.state.currentQuestion}
               currentA={this.state.currentA}
@@ -101,7 +101,7 @@ class MyApp extends React.Component{
               getAnswer={this.getAnswer}
         />;
         break;
-        case "Result Page" : 
+        case "ResultPage" : 
         return <ResultPage 
               correctTotal={this.state.correctTotal}
         />;
@@ -123,7 +123,7 @@ class MyApp extends React.Component{
           <h1>Country Quiz</h1>
           
           <QuizBox 
-            loadPage={this.loadPage()}
+            loadPage={this.loadPage(this.state.currentPage)}
           />
         </div>
         )
