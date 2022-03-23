@@ -72,6 +72,7 @@ background: pink;
 width: 84px;
 height: 54px;
 margin-bottom: 28px;
+border: 2px solid #1D355D;
 }
 
 ul{
@@ -138,6 +139,11 @@ color: #FFFFFF;
 .right-ans, .right-ans:disabled, .right-ans:hover{
   background: #60BF88;
   color: white;
+  border: 2px solid #60BF88;
+}
+.right-ans1, .right-ans1:disabled, .right-ans1:hover{
+  background: white;
+  color: #60BF88;
   border: 2px solid #60BF88;
 }
 .wrong-ans, .wrong-ans:disabled, .wrong-ans:hover{

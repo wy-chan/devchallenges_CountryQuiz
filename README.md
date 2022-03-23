@@ -37,11 +37,13 @@
 
 ## Overview
 
+  #### 2 Types of questions:
 
-   <img src="images/quiz_screen0.png" alt="screenshot" height="400">
+   <img src="images/screenshot_quiz0.png" alt="screenshot" height="200"><img src="images/screenshot_quiz2.png" alt="screenshot" height="200">
    
+  #### Right answer/ Wrong answer:
    
-   <img src="images/quiz_screen1.png" alt="screenshot" height="200"><img src="images/quiz_screen2.png" alt="screenshot" height="200"><img src="images/quiz_screen3.png" alt="screenshot" height="200">
+   <img src="images/screenshot_quiz1.png" alt="screenshot" height="200"><img src="images/screenshot_quiz3.png" alt="screenshot" height="200">
 
 See demo here: https://wy-chan.github.io/devchallenges_CountryQuiz/
 
