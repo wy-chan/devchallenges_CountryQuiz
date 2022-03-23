@@ -39,11 +39,11 @@
 
   #### 2 Types of questions:
 
-   <img src="images/screenshot_quiz0.png" alt="screenshot" height="200"><img src="images/screenshot_quiz2.png" alt="screenshot" height="200">
+   <img src="images/screenshot_quiz0.png" alt="screenshot" height="300"><img src="images/screenshot_quiz2.png" alt="screenshot" height="300">
    
   #### Right answer/ Wrong answer:
    
-   <img src="images/screenshot_quiz1.png" alt="screenshot" height="200"><img src="images/screenshot_quiz3.png" alt="screenshot" height="200">
+   <img src="images/screenshot_quiz1.png" alt="screenshot" height="300"><img src="images/screenshot_quiz3.png" alt="screenshot" height="300">
 
 See demo here: https://wy-chan.github.io/devchallenges_CountryQuiz/
 
